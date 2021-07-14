@@ -1,3 +1,2 @@
 # color-cherry
-color cherry tries to show you the most frequents pixel values in your image
-
+are you a graphic designer and you usually struggle to know the pixel value of the most frequent values in your image **color cherry** is here for you and for **free**
