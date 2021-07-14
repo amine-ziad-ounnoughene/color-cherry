@@ -5,9 +5,9 @@ from PIL import Image
 import streamlit as st
 #import streamlit as st
 st.title("color cherry")
-st.write("this app tries to show you the most frequents pixel values in your image ")
+st.write("are you a graphic designer and you usually struggle to know the pixel value of the most frequent values in your image **color cherry** is here for you and for **free** ")
 most = st.number_input('Insert the number of the most frequent pixels you wanna show : ',value=3,step=1)
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg","png"])
+uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
 def colors(x,most_frequent=5):
   X = x
